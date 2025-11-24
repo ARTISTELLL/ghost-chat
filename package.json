@@ -1,0 +1,11 @@
+{
+  "name": "ghost-chat-root",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "cd client && npm install && npm run build && cd ../serveur && npm install",
+    "start": "node serveur/index.js"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
